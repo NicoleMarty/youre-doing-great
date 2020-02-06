@@ -1,17 +1,17 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonSearchbar } from '@ionic/react';
 import React from 'react';
-import Trip from './Trip';
+import UpcomingShows from './Trip';
 
 const Home: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>You're Doing Great!</IonTitle>
+          <IonTitle>TRIPPY</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
-        Take a trip.
+         <IonSearchbar/>
         <p>
           If you get lost, the{' '}
           <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps">
@@ -19,7 +19,7 @@ const Home: React.FC = () => {
           </a>{' '}
           will be your guide.
         </p>
-        <Trip> </Trip>
+        <UpcomingShows> </UpcomingShows>
       </IonContent>
     </IonPage>
   );
