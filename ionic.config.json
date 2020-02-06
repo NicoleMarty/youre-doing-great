@@ -1,0 +1,7 @@
+{
+  "name": "youre_doing_great",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
