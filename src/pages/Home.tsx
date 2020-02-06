@@ -6,15 +6,15 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Ionic Blank</IonTitle>
+          <IonTitle>You're Doing Great!</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
-        The world is your oyster.
+        Take a trip.
         <p>
           If you get lost, the{' '}
-          <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/">
-            docs
+          <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps">
+            google maps
           </a>{' '}
           will be your guide.
         </p>
